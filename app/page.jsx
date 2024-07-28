@@ -11,7 +11,7 @@ const Home = () => {
             </span>
         </h1>
         <p className="desc text-center">
-            Promptopia is a platform that generates AI prompts for writers, artists, and creators. 
+            Promptopia is a platform to share BEST AI prompts for writers, artists, and creators. 
         </p>
 
         <Feed />
