@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect } from "react";
-
 import PromptCard from "./PromptCard";
 
 const PromptCardList = ({data, handleTagClick}) => {
@@ -18,7 +17,7 @@ const PromptCardList = ({data, handleTagClick}) => {
   )
 }
 
-const feed = () => {
+const Feed = () => {
 
   const [searchText, setSearchText] = useState('');
   const [posts, setPosts] = useState([]);
@@ -43,7 +42,7 @@ const feed = () => {
       <form className="relative w-full flex-center">
         <input
           type="text"
-          placeholder="Search for prompts"
+          placeholder="Search for tag or username"
           value={searchText}
           onChange={handleSearchChange}
           required
@@ -54,11 +53,10 @@ const feed = () => {
 
       <PromptCardList 
         data={posts}
-        // handleTagClick
-      
+        // Ensure handleTagClick is either provided here or handled as optional in PromptCard
       />
     </section>
   )
 }
 
-export default feed
+export default Feed
