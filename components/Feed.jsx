@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect } from "react";
-
 import PromptCard from "./PromptCard";
 
 const PromptCardList = ({ data, handleTagClick }) => {
@@ -86,14 +85,17 @@ const Feed = () => {
         />
       </form>
 
-      {/* All Prompts */}
+      { /* All Prompts */ }
       {searchText ? (
         <PromptCardList
           data={searchedResults}
           handleTagClick={handleTagClick}
         />
       ) : (
-        <PromptCardList data={allPosts} handleTagClick={handleTagClick} />
+        <PromptCardList
+          data={allPosts}
+          handleTagClick={handleTagClick}
+        />
       )}
     </section>
   );
