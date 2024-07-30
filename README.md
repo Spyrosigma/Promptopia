@@ -35,7 +35,7 @@
     # or
     bun dev
     ```
-4. Make a .env file and Populate it with Google OAuth Client Id, Secret, MONGODB_URI, NEXTAUTH_SECRET, NEXTAUTH_URL.
+4. Make a .env file and Populate it with your Variables :)
     ```bash
     GOOGLE_ID= blah blah blah
     GOOGLE_CLIENT_SECRET=blah blah
