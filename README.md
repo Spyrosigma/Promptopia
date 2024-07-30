@@ -5,7 +5,8 @@
 - You can copy prompts on your clipboard
 - Real-time prompts searching
 
-## Basically, I was exhausted from doing ML for the past 1 month, so to refresh, I built this.
+## Basically, I was exhausted from doing ML for the past 1 month, so to refresh, I built this. 
+### The website is live, the link is in the About section. I also deployed it on Vercel, but Vercel somehow did not manage the serverless functions well(Giving Auth Errors, also sometimes not fetching data from Mongo-Atlas), so I also deployed it on Render.
 
 ## Feed Page
 ![Screenshot (319)](https://github.com/user-attachments/assets/d7fa4d2f-b460-4e46-a359-c7ace41f870b)
