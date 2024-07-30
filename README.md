@@ -18,15 +18,15 @@
 ## Getting Started
 
 1. Clone this repo
-```bash
+    ```bash
     git clone https://github.com/Spyrosigma/Promptopia.git
-```
+    ```
 2. Install dependencies
-```bash
+    ```bash
     npm i
-```
+    ```
 3. Run the development server:
-```bash
+    ```bash
     npm run dev
     # or
     yarn dev
@@ -34,15 +34,15 @@
     pnpm dev
     # or
     bun dev
-```
+    ```
 4. Make a .env file and Populate it with Google OAuth Client Id, Secret, MONGODB_URI, NEXTAUTH_SECRET, NEXTAUTH_URL.
-```bash
+    ```bash
     GOOGLE_ID= blah blah blah
     GOOGLE_CLIENT_SECRET=blah blah
     MONGODB_URI= blah
     NEXTAUTH_URL=http://localhost:3000
     NEXTAUTH_URL_INTERNAL=http://localhost:3000
     NEXTAUTH_SECRET=54qwNk2  
-```
+    ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
