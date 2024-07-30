@@ -33,8 +33,12 @@ const CreatePrompt = () => {
             if (response.ok) {
                 router.push('/');
             }
+            else{
+                alert('Sign In to create a Prompt !');
+            }
         } catch (error) {
-            console.log(error);
+            console.log('Failed to create prompt');
+            
         } finally{
             setSubmitting(false);
         }

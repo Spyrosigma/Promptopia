@@ -23,7 +23,7 @@ export const POST = async (req) => {
         });
 
     } catch (error) {
-        console.log(error);
+        console.log(error + "Failed to create New prompt");
         return new Response("Failed to create New prompt", {status: 500});
     }
 }
