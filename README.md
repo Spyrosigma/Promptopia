@@ -7,6 +7,10 @@
 
 ## Basically, I was exhausted from doing ML for the past 1 month, so to refresh, I built this.
 
+![Screenshot (319)](https://github.com/user-attachments/assets/d7fa4d2f-b460-4e46-a359-c7ace41f870b)
+
+![Screenshot (321)](https://github.com/user-attachments/assets/3fc88a41-d5f1-411c-98f7-bf5fd4a8c44e)
+
 ## Getting Started
 
 1. Clone this repo
